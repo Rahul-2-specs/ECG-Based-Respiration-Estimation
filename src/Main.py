@@ -10,7 +10,7 @@ from scipy.fft import fft, fftfreq
 # ECG-EDR ANALYSIS - MIT-BIH Record 100
 # ============================================================
 
-RECORD_NAME = "100"
+RECORD_NAME = "data/100"
 LOWCUT = 0.5
 HIGHCUT = 45.0
 FILTER_ORDER = 4
