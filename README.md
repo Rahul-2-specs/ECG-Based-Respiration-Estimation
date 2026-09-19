@@ -111,7 +111,7 @@ RR intervals occur at non-uniform time points because heartbeats are not perfect
 
 **Resampling frequency:** 4 Hz
 
-![Uniformly Sampled RR Tachogram](assets/uniformly_sampled_rr.png)
+![Uniformly Sampled RR Tachogram](assets/uniformly_sampled.png)
 
 ### 6. Frequency-Domain Analysis
 
@@ -199,8 +199,8 @@ ECG-Based-Respiration-Estimation/
 Clone the repository:
 
 ```bash
-git clone https://github.com/Rahul-2-specs/ecg-edr-analysis.git
-cd ecg-edr-analysis
+git clone https://github.com/Rahul-2-specs/ECG-Based-Respiration-Estimation.git
+cd ECG-Based-Respiration-Estimation
 ```
 
 Install the required Python packages:
@@ -211,18 +211,13 @@ pip install -r requirements.txt
 
 ## How to Run
 
-Ensure the WFDB record files are available in the same working directory as `Main.py`:
+The WFDB record files are stored in the `data/` directory.
 
-```text
-100.dat
-100.hea
-```
+The analysis script is located at `src/Main.py`.
 
-Then run:
+Run from the project root:
 
-```bash
-python Main.py
-```
+python src/Main.py
 
 The program performs the complete ECG processing and displays the generated analysis figures.
 
